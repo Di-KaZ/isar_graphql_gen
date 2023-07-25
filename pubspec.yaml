@@ -1,0 +1,25 @@
+name: isar_graphql
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+publish_to: none
+
+environment:
+  sdk: ^3.0.6
+
+# Add regular dependencies here.
+dependencies:
+  code_builder: ^4.5.0
+  dart_style: ^2.3.2
+  gql: ^1.0.0
+  isar:
+    path: ../isar/packages/isar
+
+dev_dependencies:
+  build_runner: ^2.4.6
+  isar_generator: ^3.1.0+1
+  isar_flutter_libs:
+    path: ../isar/packages/isar_flutter_libs
+  json_annotation: ^4.8.1
+  lints: ^2.0.0
+  test: ^1.21.0
